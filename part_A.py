@@ -4,9 +4,13 @@ from pymongo.server_api import ServerApi
 
 #importing for data scraping
 import requests
+import os
 
+import environ
+# Initialise environment variables
+env = environ.Env()
 #uri connects you to  mongodb atlas
-uri =<INSERT YOUR URI HERE>
+uri = env('MONGODB_URI')
 
 # Set the Stable API version when creating a new client
 client = MongoClient(uri, server_api=ServerApi('1'))

@@ -5,8 +5,10 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 
-uri =<INSERT YOUR URI HERE>
-
+import environ
+# Initialise environment variables
+env = environ.Env()
+uri = env('MONGODB_URI')
 # Set the Stable API version when creating a new client
 client = MongoClient(uri, server_api=ServerApi('1'))
                           
