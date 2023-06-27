@@ -1,4 +1,5 @@
-# How to use
+# Python Intern Assignment
+## How to use
 ### Step1. Cloning this repo
 Run this either in gitbash terminal or VsCode terminal
 
@@ -42,19 +43,28 @@ pip -r install requirements.txt
 ### Step5. Run Files
 ### Running part_A.py
  Expected output as on terminal for adding a user
+
+ 
 ![user](https://github.com/harjasdt/teachNote/assets/68768529/8d390336-e477-4fc8-b23f-676580ade3c0)
 
 
  Expected output as on terminal for posting the post data
+
+ 
 ![post](https://github.com/harjasdt/teachNote/assets/68768529/9d1b21fa-666f-47ee-a00f-4a23d0281984)
 
 
 Changes reflected to your database
+
+
 ![parta](https://github.com/harjasdt/teachNote/assets/68768529/5ecbde0f-c357-4514-b998-b7cd1be45afb)
 ### Runningg part_B.py
 Expected output as on terminal
+
+
 ![partb](https://github.com/harjasdt/teachNote/assets/68768529/a56b719a-58d0-4fef-bea0-a9df17bce646)
 
  Changes reflected to your database
+ 
 
 ![book](https://github.com/harjasdt/teachNote/assets/68768529/2e90f7f2-d587-48ea-a01b-7cd963f89e54)
