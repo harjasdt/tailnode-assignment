@@ -18,7 +18,7 @@
 Run this either in gitbash terminal or VsCode terminal
 
 ```
-git clone https://github.com/harjasdt/teachNote.git
+git clone https://github.com/harjasdt/tailnode-assignment.git
 ```
 ### Step2. Installing and Creating virtual envirnoment
 Install virtual envirnomen
@@ -29,17 +29,17 @@ pip install virtualenv
 
 Create your virtual envirnoment
 ```
-virtualenv teachnote_env 
+virtualenv tailnode_env 
 ```
 
 Activate your env
 ```
-cd teachnote_env
+cd tailnode_env
 Scripts/activate
 cd .. 
 ```
 
-You should see teachnote_env written in brackets in the beginning of your terminal.
+You should see tailnode_env written in brackets in the beginning of your terminal.
 
 ### Step3. Install requirements.txt
 Now, inside your main folder install all the requirements using
