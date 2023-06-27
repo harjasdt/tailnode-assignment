@@ -6,11 +6,12 @@ from pymongo.server_api import ServerApi
 import requests
 import os
 
-import environ
-# Initialise environment variables
-env = environ.Env()
+from dotenv import load_dotenv
+load_dotenv('./.env')
+
 #uri connects you to  mongodb atlas
-uri = env('MONGODB_URI')
+uri = os.environ['MONGODBURI']
+
 
 # Set the Stable API version when creating a new client
 client = MongoClient(uri, server_api=ServerApi('1'))
