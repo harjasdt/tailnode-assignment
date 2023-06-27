@@ -1,10 +1,16 @@
 # Python Intern Assignment
 ## Implementation
 ### Part A
-First established a connection with Mongodb Atlas using URI and then created functions for making API calls to populate database, then started an infinite loop and took user inputs to perform the mentioned functionalities of creating users and posting data.After getting the required data it was inserted to the database and a success message is displayed.
+- First established a connection with Mongodb using URI.
+- Created functions for making API calls to populate database.
+- Started an infinite loop and took user inputs to perform the mentioned functionalities of creating users and posting data.
+- After getting the required data it was inserted to the database and a success message is displayed.
 
 ### Part B
-First established a connection with Mongodb Atlas using URI and then created functions for scraping data from the mentioned websites, then started a for loop for navigating to different pages for scraping data .After getting the required data the database is updated.
+- First established a connection with Mongodb using URI.
+- Created functions for scraping data from the mentioned websites.
+- Then started a for loop for navigating to different pages for scraping data.
+- After getting the required data the database is updated.
 
 
 ## How to use
@@ -42,10 +48,10 @@ pip -r install requirements.txt
 ```
 
 ### Step4. Adding your URI
--Go to https://account.mongodb.com/account/login <br>
--After logging in create your database<br>
--Now connect using python driver<br>
--Create you URI and replace it on places mentioned in the code
+- Go to https://account.mongodb.com/account/login <br>
+- After logging in create your database<br>
+- Now connect using python driver<br>
+- Create you URI and replace it on places mentioned in the code
 
 
 ### Step5. Run Files
