@@ -1,10 +1,13 @@
 # Python Intern Assignment
+## Implementation
+### Part A
+First establish a connection with your 
 ## How to use
 ### Step1. Cloning this repo
 Run this either in gitbash terminal or VsCode terminal
 
 ```
-git clone 
+git clone https://github.com/harjasdt/teachNote.git
 ```
 ### Step2. Installing and Creating virtual envirnoment
 Install virtual envirnomen
