@@ -6,7 +6,7 @@ from pymongo.server_api import ServerApi
 import requests
 
 #uri connects you to  mongodb atlas
-uri ="mongodb+srv://teachnode:teachnode@teachnode.3o5abt1.mongodb.net/?retryWrites=true&w=majority"
+uri =<INSERT YOUR URI HERE>
 
 # Set the Stable API version when creating a new client
 client = MongoClient(uri, server_api=ServerApi('1'))
@@ -54,7 +54,7 @@ def fetch_posts(user_id):
 def insert_users(number):
 
     # for inserting users
-    mylist=fetch_users(3) 
+    mylist=fetch_users(number) 
     x = mycol.insert_many(mylist)
     print("\nUsers Created !!!!\n\n")
 
