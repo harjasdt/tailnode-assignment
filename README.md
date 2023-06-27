@@ -72,7 +72,7 @@ Changes reflected to your database
 
 
 ![parta](https://github.com/harjasdt/teachNote/assets/68768529/5ecbde0f-c357-4514-b998-b7cd1be45afb)
-### Runningg part_B.py
+### Running part_B.py
 Expected output as on terminal
 
 
