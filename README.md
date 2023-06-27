@@ -33,9 +33,9 @@ pip -r install requirements.txt
 ```
 
 ### Step4. Adding your URI
--Go to https://account.mongodb.com/account/login 
--After logging in create your database
--Now connect using python driver
+-Go to https://account.mongodb.com/account/login <br>
+-After logging in create your database<br>
+-Now connect using python driver<br>
 -Create you URI and replace it on places mentioned in the code
 
 
