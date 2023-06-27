@@ -1,7 +1,12 @@
 # Python Intern Assignment
 ## Implementation
 ### Part A
-First establish a connection with your 
+First established a connection with Mongodb Atlas using URI and then created functions for making API calls to populate database, then started an infinite loop and took user inputs to perform the mentioned functionalities of creating users and posting data.After getting the required data it was inserted to the database and a success message is displayed.
+
+### Part B
+First established a connection with Mongodb Atlas using URI and then created functions for scraping data from the mentioned websites, then started a for loop for navigating to different pages for scraping data .After getting the required data the database is updated.
+
+
 ## How to use
 ### Step1. Cloning this repo
 Run this either in gitbash terminal or VsCode terminal
