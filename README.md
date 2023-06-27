@@ -17,3 +17,6 @@
 # Executing Part B
 
 ![partb](https://github.com/harjasdt/teachNote/assets/68768529/a56b719a-58d0-4fef-bea0-a9df17bce646)
+
+
+![book](https://github.com/harjasdt/teachNote/assets/68768529/2e90f7f2-d587-48ea-a01b-7cd963f89e54)
